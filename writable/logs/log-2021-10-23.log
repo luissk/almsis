@@ -1,0 +1,13 @@
+CRITICAL - 2021-10-23 15:26:22 --> Invalid file: producto/medidas.php
+#0 C:\xampp\htdocs\almexterno\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('producto/medida...')
+#1 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('producto/medida...', Array, true)
+#2 C:\xampp\htdocs\almexterno\app\Views\template\layout.php(14): view('producto/medida...')
+#3 C:\xampp\htdocs\almexterno\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('template/layout', Array, true)
+#6 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(75): view('template/layout', Array)
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->umedidas()
+#8 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#9 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}

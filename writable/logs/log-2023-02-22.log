@@ -1,0 +1,6 @@
+CRITICAL - 2023-02-22 01:15:20 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(234): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\almexterno\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\almexterno\index.php(27): require('C:\\xampp\\htdocs...')
+#4 {main}

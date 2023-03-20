@@ -1,0 +1,77 @@
+ERROR - 2022-10-11 09:38:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where idusuario=1' at line 2
+CRITICAL - 2022-10-11 09:38:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where idusuario=1' at line 2
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('update usuario ...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('update usuario ...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('update usuario ...')
+#3 C:\xampp\htdocs\almexterno\app\Models\UsuarioModel.php(66): CodeIgniter\Database\BaseConnection->query('update usuario ...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Usuario.php(113): App\Models\UsuarioModel->updateUsuario('lcalderons', '$2a$07$asxx54ah...', 'Luis Calder\xC3\xB3n ...', '45487229', '1', 1, NULL)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Usuario->saveUpdateUsuario()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-11 09:39:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where idusuario=2' at line 2
+CRITICAL - 2022-10-11 09:39:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where idusuario=2' at line 2
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('update usuario ...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('update usuario ...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('update usuario ...')
+#3 C:\xampp\htdocs\almexterno\app\Models\UsuarioModel.php(66): CodeIgniter\Database\BaseConnection->query('update usuario ...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Usuario.php(113): App\Models\UsuarioModel->updateUsuario('lsanchez', '$2a$07$asxx54ah...', 'Luis S\xC3\xA1nchez C', '45487228', '2', '2', NULL)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Usuario->saveUpdateUsuario()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-11 09:40:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where idusuario=2' at line 2
+CRITICAL - 2022-10-11 09:40:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where idusuario=2' at line 2
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('update usuario ...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('update usuario ...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('update usuario ...')
+#3 C:\xampp\htdocs\almexterno\app\Models\UsuarioModel.php(66): CodeIgniter\Database\BaseConnection->query('update usuario ...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Usuario.php(113): App\Models\UsuarioModel->updateUsuario('lsanchez', '$2a$07$asxx54ah...', 'Luis S\xC3\xA1nchez C', '45487228', '2', '2', NULL)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Usuario->saveUpdateUsuario()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-11 09:43:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where idusuario=2' at line 2
+CRITICAL - 2022-10-11 09:43:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where idusuario=2' at line 2
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('update usuario ...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('update usuario ...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('update usuario ...')
+#3 C:\xampp\htdocs\almexterno\app\Models\UsuarioModel.php(66): CodeIgniter\Database\BaseConnection->query('update usuario ...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Usuario.php(113): App\Models\UsuarioModel->updateUsuario('lsanchez', '$2a$07$asxx54ah...', 'Luis S\xC3\xA1nchez C', '45487228', '2', '2', NULL)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Usuario->saveUpdateUsuario()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-11 09:44:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where idusuario=2' at line 2
+CRITICAL - 2022-10-11 09:44:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where idusuario=2' at line 2
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('update usuario ...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('update usuario ...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('update usuario ...')
+#3 C:\xampp\htdocs\almexterno\app\Models\UsuarioModel.php(66): CodeIgniter\Database\BaseConnection->query('update usuario ...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Usuario.php(113): App\Models\UsuarioModel->updateUsuario('lsanchez', '$2a$07$asxx54ah...', 'Luis S\xC3\xA1nchez C', '45487228', '2', '2', '')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Usuario->saveUpdateUsuario()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-11 09:44:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where idusuario=2' at line 2
+CRITICAL - 2022-10-11 09:44:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where idusuario=2' at line 2
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('update usuario ...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('update usuario ...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('update usuario ...')
+#3 C:\xampp\htdocs\almexterno\app\Models\UsuarioModel.php(66): CodeIgniter\Database\BaseConnection->query('update usuario ...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Usuario.php(113): App\Models\UsuarioModel->updateUsuario('lsanchez', '$2a$07$asxx54ah...', 'Luis S\xC3\xA1nchez C', '45487228', '2', '2', '')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Usuario->saveUpdateUsuario()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-11 10:50:59 --> syntax error, unexpected '$routes' (T_VARIABLE)
+#0 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#3 {main}

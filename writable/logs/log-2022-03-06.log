@@ -1,0 +1,10 @@
+CRITICAL - 2022-03-06 06:58:10 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\almexterno\system\Debug\Exceptions.php:278
+Stack trace:
+#0 C:\xampp\htdocs\almexterno\system\Debug\Exceptions.php(278): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 278, Array)
+#1 C:\xampp\htdocs\almexterno\system\Debug\Exceptions.php(278): include()
+#2 C:\xampp\htdocs\almexterno\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

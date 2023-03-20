@@ -1,0 +1,12 @@
+ERROR - 2022-09-21 13:29:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IRO',idum=1,idcategoria=4 where idproducto=215' at line 1
+CRITICAL - 2022-09-21 13:29:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IRO',idum=1,idcategoria=4 where idproducto=215' at line 1
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('update producto...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('update producto...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('update producto...')
+#3 C:\xampp\htdocs\almexterno\app\Models\ProductoModel.php(125): CodeIgniter\Database\BaseConnection->query('update producto...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(247): App\Models\ProductoModel->updateProducto('715000230041', 'TIJERA DE PLAST...', '4', '1', '1', '0', '0', 'IRO', '-', '215')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->saveUpdateProducto()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

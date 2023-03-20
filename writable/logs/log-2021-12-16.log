@@ -1,0 +1,33 @@
+CRITICAL - 2021-12-16 10:12:30 --> Undefined variable: filename
+#0 C:\xampp\htdocs\almexterno\app\Views\producto\aexcel.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\almexterno\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('producto/aexcel', Array, true)
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(417): view('producto/aexcel', Array)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->detalleExcel()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-16 10:22:40 --> mb_convert_encoding(): Object is not supported
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mb_convert_enco...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\almexterno\app\Views\producto\aexcel.php(28): mb_convert_encoding(Array, 'UTF-16LE', 'UTF-8')
+#2 C:\xampp\htdocs\almexterno\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('producto/aexcel', Array, true)
+#5 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(417): view('producto/aexcel', Array)
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->detalleExcel()
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#8 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-16 10:46:27 --> Call to undefined function push()
+#0 C:\xampp\htdocs\almexterno\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('producto/aexcel', Array, true)
+#3 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(417): view('producto/aexcel', Array)
+#4 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->detalleExcel()
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}

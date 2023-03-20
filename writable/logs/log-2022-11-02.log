@@ -1,0 +1,11 @@
+CRITICAL - 2022-11-02 14:05:25 --> Undefined variable: contenido
+#0 C:\xampp\htdocs\almexterno\app\Views\template\layout.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\almexterno\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('template/layout', Array, true)
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Chat.php(30): view('template/layout', Array)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Chat->index()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

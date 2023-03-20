@@ -1,0 +1,38 @@
+CRITICAL - 2021-12-02 07:49:19 --> Undefined property: App\Controllers\Salida::$modeloEntrada
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->editSalida('2')
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 07:49:58 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\almexterno\system\Model.php(587): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\almexterno\system\Model.php(783): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(97): CodeIgniter\Model->__call('getEntrada', Array)
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->editSalida('2')
+#4 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-02 07:50:36 --> Undefined variable: entrada
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->editSalida('2')
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 07:50:49 --> Undefined variable: areas
+#0 C:\xampp\htdocs\almexterno\app\Views\salidas\edit.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\almexterno\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('salidas/edit', Array, true)
+#4 C:\xampp\htdocs\almexterno\app\Views\template\layout.php(14): view('salidas/edit')
+#5 C:\xampp\htdocs\almexterno\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('template/layout', Array, true)
+#8 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(111): view('template/layout', Array)
+#9 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->editSalida('2')
+#10 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#11 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#13 {main}

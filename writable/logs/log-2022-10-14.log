@@ -1,0 +1,31 @@
+CRITICAL - 2022-10-14 09:37:13 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\almexterno\app\Controllers\Requerimiento.php(27): count('2')
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->notificacionReq()
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#4 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-14 09:37:23 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\almexterno\app\Controllers\Requerimiento.php(27): count('2')
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->notificacionReq()
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#4 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-14 09:37:33 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\almexterno\app\Controllers\Requerimiento.php(27): count('2')
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->notificacionReq()
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#4 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-14 14:05:40 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\almexterno\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('/requerimiento/...')
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(828): CodeIgniter\Router\Router->handle('/requerimiento/...')
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

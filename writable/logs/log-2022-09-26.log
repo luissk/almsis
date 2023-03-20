@@ -1,0 +1,44 @@
+ERROR - 2022-09-26 12:56:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+CRITICAL - 2022-09-26 12:56:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('insert into sal...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('insert into sal...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('insert into sal...')
+#3 C:\xampp\htdocs\almexterno\app\Models\SalidaModel.php(55): CodeIgniter\Database\BaseConnection->query('insert into sal...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(75): App\Models\SalidaModel->insertSalida('2022-09-26', 'PRUEBA', 'PRBANDO', '4', NULL)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->saveSalida()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-26 13:00:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+CRITICAL - 2022-09-26 13:00:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('insert into sal...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('insert into sal...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('insert into sal...')
+#3 C:\xampp\htdocs\almexterno\app\Models\SalidaModel.php(55): CodeIgniter\Database\BaseConnection->query('insert into sal...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(75): App\Models\SalidaModel->insertSalida('2022-09-26', 'PRUEBA', 'PRBANDO', '4', NULL)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->saveSalida()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-26 13:11:43 --> Call to undefined function App\Controllers\mes_help()
+#0 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Inicio->index()
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-26 13:13:49 --> Call to undefined function mes_help()
+#0 C:\xampp\htdocs\almexterno\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('inicio', Array, true)
+#3 C:\xampp\htdocs\almexterno\app\Views\template\layout.php(24): view('inicio')
+#4 C:\xampp\htdocs\almexterno\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('template/layout', Array, true)
+#7 C:\xampp\htdocs\almexterno\app\Controllers\Inicio.php(73): view('template/layout', Array)
+#8 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Inicio->dashboard()
+#9 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 {main}

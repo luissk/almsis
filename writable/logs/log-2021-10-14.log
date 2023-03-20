@@ -1,0 +1,79 @@
+ERROR - 2021-10-14 21:19:43 --> Table 'articulosdb.usuario' doesn't exist
+CRITICAL - 2021-10-14 21:19:43 --> Table 'articulosdb.usuario' doesn't exist
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select * from u...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\almexterno\app\Models\UsuarioModel.php(11): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Inicio.php(23): App\Models\UsuarioModel->validaUsuario('LCALDERONS')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-14 21:20:24 --> Table 'articulosdb.usuario' doesn't exist
+CRITICAL - 2021-10-14 21:20:24 --> Table 'articulosdb.usuario' doesn't exist
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select * from u...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\almexterno\app\Models\UsuarioModel.php(11): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Inicio.php(23): App\Models\UsuarioModel->validaUsuario('LCALDERONS')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-14 21:24:46 --> Table 'articulosdb.usuario' doesn't exist
+CRITICAL - 2021-10-14 21:24:46 --> Table 'articulosdb.usuario' doesn't exist
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select * from u...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\almexterno\app\Models\UsuarioModel.php(11): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Inicio.php(23): App\Models\UsuarioModel->validaUsuario('LCALDERONS')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-14 21:27:50 --> Table 'articulosdb.usuario' doesn't exist
+CRITICAL - 2021-10-14 21:27:50 --> Table 'articulosdb.usuario' doesn't exist
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select * from u...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\almexterno\app\Models\UsuarioModel.php(11): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Inicio.php(23): App\Models\UsuarioModel->validaUsuario('LCALDERONS')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-14 21:27:52 --> Table 'articulosdb.usuario' doesn't exist
+CRITICAL - 2021-10-14 21:27:52 --> Table 'articulosdb.usuario' doesn't exist
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select * from u...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\almexterno\app\Models\UsuarioModel.php(11): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Inicio.php(23): App\Models\UsuarioModel->validaUsuario('LCALDERONS')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-14 21:29:17 --> Table 'articulosdb.usuario' doesn't exist
+CRITICAL - 2021-10-14 21:29:17 --> Table 'articulosdb.usuario' doesn't exist
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select * from u...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from u...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from u...')
+#3 C:\xampp\htdocs\almexterno\app\Models\UsuarioModel.php(11): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Inicio.php(23): App\Models\UsuarioModel->validaUsuario('LCALDERONS')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-14 21:31:00 --> Undefined index: tipo
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Inicio.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Inicio->index()
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

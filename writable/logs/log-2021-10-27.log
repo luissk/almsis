@@ -1,0 +1,35 @@
+CRITICAL - 2021-10-27 18:56:36 --> Undefined variable: categoria
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 163, Array)
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->loadCategorias()
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-27 21:55:15 --> Array to string conversion
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(197): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->saveUpdateProducto()
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-27 21:56:06 --> Array to string conversion
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(197): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->saveUpdateProducto()
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-27 21:56:56 --> Array to string conversion
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(197): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->saveUpdateProducto()
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-27 21:57:53 --> Array to string conversion
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(197): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->saveUpdateProducto()
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,12 @@
+ERROR - 2022-04-20 13:23:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1)' at line 1
+CRITICAL - 2022-04-20 13:23:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1)' at line 1
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('insert into are...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('insert into are...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('insert into are...')
+#3 C:\xampp\htdocs\almexterno\app\Models\SalidaModel.php(25): CodeIgniter\Database\BaseConnection->query('insert into are...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(240): App\Models\SalidaModel->insertArea('CONSULTA EXTERN...', '-', '-', '-')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->saveUpdateArea()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

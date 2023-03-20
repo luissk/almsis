@@ -1,0 +1,8 @@
+CRITICAL - 2021-03-27 07:54:00 --> Undefined variable $db
+#0 C:\xampp\htdocs\ci4\app\Models\Articulo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\ci4\app\Controllers\Articulos.php(24): App\Models\Articulo->getArticulo(3)
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(948): App\Controllers\Articulos->crear()
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,39 @@
+ERROR - 2022-10-12 10:52:23 --> Unknown column '710600010070xx' in 'where clause'
+CRITICAL - 2022-10-12 10:52:23 --> Unknown column '710600010070xx' in 'where clause'
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select p.idprod...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select p.idprod...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select p.idprod...')
+#3 C:\xampp\htdocs\almexterno\app\Models\ProductoModel.php(115): CodeIgniter\Database\BaseConnection->query('select p.idprod...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Requerimiento.php(46): App\Models\ProductoModel->getProductoPorCodigo('710600010070xx')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->agregarProducto()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 10:52:32 --> Unknown column 'xx' in 'where clause'
+CRITICAL - 2022-10-12 10:52:32 --> Unknown column 'xx' in 'where clause'
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select p.idprod...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select p.idprod...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select p.idprod...')
+#3 C:\xampp\htdocs\almexterno\app\Models\ProductoModel.php(115): CodeIgniter\Database\BaseConnection->query('select p.idprod...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Requerimiento.php(46): App\Models\ProductoModel->getProductoPorCodigo('xx')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->agregarProducto()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-12 11:43:37 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\almexterno\app\Controllers\Requerimiento.php(62): json_decode(Array, true)
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->agregarProducto()
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#4 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-12 13:43:54 --> Undefined variable: producto
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Requerimiento.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->procesaRequerimiento()
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

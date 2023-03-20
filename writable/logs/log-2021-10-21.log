@@ -1,0 +1,15 @@
+CRITICAL - 2021-10-21 19:48:25 --> Undefined variable: datos
+#0 C:\xampp\htdocs\almexterno\app\Views\producto\categorias.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\almexterno\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('producto/catego...', Array, true)
+#4 C:\xampp\htdocs\almexterno\app\Views\template\layout.php(14): view('producto/catego...')
+#5 C:\xampp\htdocs\almexterno\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('template/layout', Array, true)
+#8 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(16): view('template/layout', Array)
+#9 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->categorias()
+#10 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#11 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#13 {main}

@@ -1,0 +1,66 @@
+ERROR - 2021-10-29 22:16:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+CRITICAL - 2021-10-29 22:16:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select p.idprod...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select p.idprod...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select p.idprod...')
+#3 C:\xampp\htdocs\almexterno\app\Models\ProductoModel.php(98): CodeIgniter\Database\BaseConnection->query('select p.idprod...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(156): App\Models\ProductoModel->getProducto(NULL)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->nuevoProducto()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-29 22:16:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+CRITICAL - 2021-10-29 22:16:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select p.idprod...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select p.idprod...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select p.idprod...')
+#3 C:\xampp\htdocs\almexterno\app\Models\ProductoModel.php(98): CodeIgniter\Database\BaseConnection->query('select p.idprod...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(156): App\Models\ProductoModel->getProducto(NULL)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->nuevoProducto()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-29 22:18:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+CRITICAL - 2021-10-29 22:18:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select p.idprod...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select p.idprod...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select p.idprod...')
+#3 C:\xampp\htdocs\almexterno\app\Models\ProductoModel.php(98): CodeIgniter\Database\BaseConnection->query('select p.idprod...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(156): App\Models\ProductoModel->getProducto(NULL)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->nuevoProducto()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-29 22:20:01 --> Undefined variable: producto
+#0 C:\xampp\htdocs\almexterno\app\Views\producto\nuevoproducto.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\almexterno\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('producto/nuevop...', Array, true)
+#4 C:\xampp\htdocs\almexterno\app\Views\template\layout.php(14): view('producto/nuevop...')
+#5 C:\xampp\htdocs\almexterno\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('template/layout', Array, true)
+#8 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(161): view('template/layout', Array)
+#9 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->nuevoProducto()
+#10 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#11 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-10-29 22:21:47 --> Undefined variable: producto
+#0 C:\xampp\htdocs\almexterno\app\Views\producto\nuevoproducto.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\almexterno\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('producto/nuevop...', Array, true)
+#4 C:\xampp\htdocs\almexterno\app\Views\template\layout.php(14): view('producto/nuevop...')
+#5 C:\xampp\htdocs\almexterno\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('template/layout', Array, true)
+#8 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(163): view('template/layout', Array)
+#9 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->nuevoProducto()
+#10 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#11 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#13 {main}

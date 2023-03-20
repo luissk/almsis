@@ -1,0 +1,130 @@
+CRITICAL - 2021-03-19 01:04:01 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(234): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci4\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\ci4\public\index.php(27): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-19 01:20:40 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(234): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci4\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\ci4\public\index.php(27): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-19 01:23:57 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(234): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci4\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\ci4\public\index.php(27): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-19 01:24:03 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(234): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci4\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\ci4\public\index.php(27): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-19 01:30:14 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(234): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci4\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\ci4\public\index.php(27): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-19 01:30:17 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(234): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci4\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\ci4\public\index.php(27): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-19 01:30:33 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(234): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci4\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\ci4\public\index.php(27): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-19 01:30:46 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(234): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci4\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\ci4\public\index.php(27): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-19 01:30:49 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(234): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci4\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\ci4\public\index.php(27): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-19 17:44:07 --> Undefined variable $datos
+#0 C:\xampp\htdocs\ci4\app\Views\listado.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1250): CodeIgniter\View\View->render('listado', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Articulos.php(13): view('listado', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(948): App\Controllers\Articulos->index()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 17:57:15 --> Undefined variable $footer
+#0 C:\xampp\htdocs\ci4\app\Views\listado.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1250): CodeIgniter\View\View->render('listado', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Articulos.php(16): view('listado', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(948): App\Controllers\Articulos->index()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 17:57:44 --> Undefined variable $footer
+#0 C:\xampp\htdocs\ci4\app\Views\listado.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1250): CodeIgniter\View\View->render('listado', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Articulos.php(16): view('listado', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(948): App\Controllers\Articulos->index()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 17:58:12 --> Undefined variable $footer
+#0 C:\xampp\htdocs\ci4\app\Views\listado.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1250): CodeIgniter\View\View->render('listado', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Articulos.php(16): view('listado', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(948): App\Controllers\Articulos->index()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 18:01:44 --> Invalid file: header.php
+#0 C:\xampp\htdocs\ci4\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\xampp\htdocs\ci4\system\Common.php(1250): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\xampp\htdocs\ci4\app\Controllers\Articulos.php(13): view('header')
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(948): App\Controllers\Articulos->index()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-19 18:08:20 --> Call to undefined method CodeIgniter\View\View::view()
+#0 C:\xampp\htdocs\ci4\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\ci4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4\system\Common.php(1250): CodeIgniter\View\View->render('template/conten...', Array, true)
+#3 C:\xampp\htdocs\ci4\app\Controllers\Articulos.php(15): view('template/conten...', Array)
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(948): App\Controllers\Articulos->index()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-19 18:10:50 --> Invalid file: name.php
+#0 C:\xampp\htdocs\ci4\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('name.php')
+#1 C:\xampp\htdocs\ci4\system\Common.php(1250): CodeIgniter\View\View->render('name', Array, true)
+#2 C:\xampp\htdocs\ci4\app\Views\template\content.php(8): view('name')
+#3 C:\xampp\htdocs\ci4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ci4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\ci4\system\Common.php(1250): CodeIgniter\View\View->render('template/conten...', Array, true)
+#6 C:\xampp\htdocs\ci4\app\Controllers\Articulos.php(15): view('template/conten...', Array)
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(948): App\Controllers\Articulos->index()
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}

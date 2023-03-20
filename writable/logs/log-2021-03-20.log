@@ -1,0 +1,42 @@
+CRITICAL - 2021-03-20 13:24:15 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getVars
+#0 C:\xampp\htdocs\ci4\app\Controllers\Articulos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(948): App\Controllers\Articulos->guardar()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-20 13:24:20 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getVar
+#0 C:\xampp\htdocs\ci4\app\Controllers\Articulos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(948): App\Controllers\Articulos->guardar()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-20 13:24:52 --> Undefined property: App\Controllers\Articulos::$post
+#0 C:\xampp\htdocs\ci4\app\Controllers\Articulos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(948): App\Controllers\Articulos->guardar()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-20 13:25:03 --> Undefined property: App\Controllers\Articulos::$input
+#0 C:\xampp\htdocs\ci4\app\Controllers\Articulos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(948): App\Controllers\Articulos->guardar()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-20 13:25:04 --> Undefined property: App\Controllers\Articulos::$input
+#0 C:\xampp\htdocs\ci4\app\Controllers\Articulos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(948): App\Controllers\Articulos->guardar()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-20 13:25:11 --> Undefined property: App\Controllers\Articulos::$input
+#0 C:\xampp\htdocs\ci4\app\Controllers\Articulos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(948): App\Controllers\Articulos->guardar()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

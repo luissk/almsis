@@ -1,0 +1,23 @@
+CRITICAL - 2021-10-30 17:44:58 --> Undefined index: idproducto
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(253): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 253, Array)
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->processImage()
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-30 17:46:27 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 C:\xampp\htdocs\almexterno\system\Images\Handlers\GDHandler.php(296): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(274): CodeIgniter\Images\Handlers\GDHandler->save('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->processImage()
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#4 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-30 17:56:49 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 C:\xampp\htdocs\almexterno\system\Images\Handlers\GDHandler.php(296): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(274): CodeIgniter\Images\Handlers\GDHandler->save('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->processImage()
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#4 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}

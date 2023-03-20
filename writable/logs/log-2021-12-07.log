@@ -1,0 +1,133 @@
+ERROR - 2021-12-07 08:47:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION
+        select
+        sal.idsalida id, sal.fecha fecha, sal.document...' at line 7
+CRITICAL - 2021-12-07 08:47:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION
+        select
+        sal.idsalida id, sal.fecha fecha, sal.document...' at line 7
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select\r\n       ...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select\r\n       ...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select\r\n       ...')
+#3 C:\xampp\htdocs\almexterno\app\Models\ProductoModel.php(180): CodeIgniter\Database\BaseConnection->query('select\r\n       ...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(380): App\Models\ProductoModel->detalle_kardex('3', '2021-11-01', '2021-12-31')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->movimientosDT('3')
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-07 08:50:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION
+        select
+        sal.idsalida id, sal.fecha fecha, sal.document...' at line 7
+CRITICAL - 2021-12-07 08:50:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION
+        select
+        sal.idsalida id, sal.fecha fecha, sal.document...' at line 7
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select\r\n       ...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select\r\n       ...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select\r\n       ...')
+#3 C:\xampp\htdocs\almexterno\app\Models\ProductoModel.php(180): CodeIgniter\Database\BaseConnection->query('select\r\n       ...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(380): App\Models\ProductoModel->detalle_kardex('3', '2021-11-26', '2021-12-07')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->movimientosDT('3')
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-07 08:50:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION
+        select
+        sal.idsalida id, sal.fecha fecha, sal.document...' at line 7
+CRITICAL - 2021-12-07 08:50:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION
+        select
+        sal.idsalida id, sal.fecha fecha, sal.document...' at line 7
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select\r\n       ...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select\r\n       ...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select\r\n       ...')
+#3 C:\xampp\htdocs\almexterno\app\Models\ProductoModel.php(180): CodeIgniter\Database\BaseConnection->query('select\r\n       ...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(380): App\Models\ProductoModel->detalle_kardex('3', '2021-12-07', '2021-12-07')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->movimientosDT('3')
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-07 08:51:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION
+        select
+        sal.idsalida id, sal.fecha fecha, sal.document...' at line 7
+CRITICAL - 2021-12-07 08:51:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION
+        select
+        sal.idsalida id, sal.fecha fecha, sal.document...' at line 7
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select\r\n       ...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select\r\n       ...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select\r\n       ...')
+#3 C:\xampp\htdocs\almexterno\app\Models\ProductoModel.php(180): CodeIgniter\Database\BaseConnection->query('select\r\n       ...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(380): App\Models\ProductoModel->detalle_kardex('3', '2021-12-07', '2021-12-07')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->movimientosDT('3')
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-07 08:53:03 --> syntax error, unexpected 'return' (T_RETURN), expecting ',' or ';'
+#0 C:\xampp\htdocs\almexterno\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\almexterno\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Prod...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Prod...')
+#3 [internal function]: spl_autoload_call('App\\Models\\Prod...')
+#4 C:\xampp\htdocs\almexterno\system\Config\Factories.php(149): class_exists('App\\Models\\Prod...')
+#5 C:\xampp\htdocs\almexterno\system\Config\Factories.php(115): CodeIgniter\Config\Factories::locateClass(Array, 'ProductoModel')
+#6 C:\xampp\htdocs\almexterno\system\Common.php(883): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#7 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(11): model('ProductoModel')
+#8 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(920): App\Controllers\Producto->__construct()
+#9 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->createController()
+#10 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-07 08:53:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::last_query()
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(368): App\Models\ProductoModel->detalle_kardex('3')
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->movimientos('3')
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 09:27:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::lastQuery()
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(368): App\Models\ProductoModel->detalle_kardex('3')
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->movimientos('3')
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 09:27:24 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\almexterno\app\Models\ProductoModel.php(181): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 181, Array)
+#1 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(368): App\Models\ProductoModel->detalle_kardex('3')
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->movimientos('3')
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#4 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-07 12:23:03 --> Undefined index: $documento
+#0 C:\xampp\htdocs\almexterno\app\Views\producto\modalDetalle.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\almexterno\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('producto/modalD...', Array, true)
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(408): view('producto/modalD...', Array)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->detalleMov()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-07 12:27:39 --> Undefined index: codigo
+#0 C:\xampp\htdocs\almexterno\app\Views\producto\modalDetalle.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\almexterno\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('producto/modalD...', Array, true)
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(408): view('producto/modalD...', Array)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->detalleMov()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-07 12:28:07 --> Undefined index: codigo
+#0 C:\xampp\htdocs\almexterno\app\Views\producto\modalDetalle.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\almexterno\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('producto/modalD...', Array, true)
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(408): view('producto/modalD...', Array)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->detalleMov()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

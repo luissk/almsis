@@ -1,0 +1,103 @@
+CRITICAL - 2021-12-06 09:16:49 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\almexterno\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\almexterno\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(905): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(429): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-06 10:46:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from detalle_salida ds 
+        inner join producto pro on ds.idproducto=pro...' at line 4
+CRITICAL - 2021-12-06 10:46:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from detalle_salida ds 
+        inner join producto pro on ds.idproducto=pro...' at line 4
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select ds.idsal...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select ds.idsal...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select ds.idsal...')
+#3 C:\xampp\htdocs\almexterno\app\Models\SalidaModel.php(108): CodeIgniter\Database\BaseConnection->query('select ds.idsal...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(99): App\Models\SalidaModel->getDetalle('2')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->editSalida('2')
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-06 10:47:48 --> Subquery returns more than 1 row
+CRITICAL - 2021-12-06 10:47:48 --> Subquery returns more than 1 row
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select ds.idsal...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select ds.idsal...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select ds.idsal...')
+#3 C:\xampp\htdocs\almexterno\app\Models\SalidaModel.php(108): CodeIgniter\Database\BaseConnection->query('select ds.idsal...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(99): App\Models\SalidaModel->getDetalle('2')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->editSalida('2')
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-06 10:48:08 --> Subquery returns more than 1 row
+CRITICAL - 2021-12-06 10:48:08 --> Subquery returns more than 1 row
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select ds.idsal...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select ds.idsal...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select ds.idsal...')
+#3 C:\xampp\htdocs\almexterno\app\Models\SalidaModel.php(108): CodeIgniter\Database\BaseConnection->query('select ds.idsal...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(99): App\Models\SalidaModel->getDetalle('2')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->editSalida('2')
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-06 10:48:42 --> Subquery returns more than 1 row
+CRITICAL - 2021-12-06 10:48:42 --> Subquery returns more than 1 row
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select ds.idsal...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select ds.idsal...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select ds.idsal...')
+#3 C:\xampp\htdocs\almexterno\app\Models\SalidaModel.php(108): CodeIgniter\Database\BaseConnection->query('select ds.idsal...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(99): App\Models\SalidaModel->getDetalle('2')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->editSalida('2')
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-06 10:51:33 --> Subquery returns more than 1 row
+CRITICAL - 2021-12-06 10:51:33 --> Subquery returns more than 1 row
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select ds.idsal...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select ds.idsal...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select ds.idsal...')
+#3 C:\xampp\htdocs\almexterno\app\Models\SalidaModel.php(108): CodeIgniter\Database\BaseConnection->query('select ds.idsal...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(99): App\Models\SalidaModel->getDetalle('2')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->editSalida('2')
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-06 11:34:57 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\almexterno\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\almexterno\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(905): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(429): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-06 11:37:59 --> Undefined variable: identrada
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->updateSalida()
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-06 11:47:32 --> Undefined index: identrada
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 178, Array)
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->deleteSalida()
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-06 12:12:41 --> Undefined index: identrada
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 178, Array)
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->deleteSalida()
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

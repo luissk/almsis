@@ -1,0 +1,110 @@
+ERROR - 2021-12-01 07:54:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'idarea desc' at line 1
+CRITICAL - 2021-12-01 07:54:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'idarea desc' at line 1
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select * from a...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from a...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from a...')
+#3 C:\xampp\htdocs\almexterno\app\Models\SalidaModel.php(11): CodeIgniter\Database\BaseConnection->query('select * from a...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(32): App\Models\SalidaModel->getAreas()
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->areas()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-01 09:37:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-12-01 09:37:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select * from a...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from a...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from a...')
+#3 C:\xampp\htdocs\almexterno\app\Models\SalidaModel.php(18): CodeIgniter\Database\BaseConnection->query('select * from a...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(46): App\Models\SalidaModel->getArea('')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->saveUpdateArea()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-01 09:37:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-12-01 09:37:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select * from a...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select * from a...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from a...')
+#3 C:\xampp\htdocs\almexterno\app\Models\SalidaModel.php(18): CodeIgniter\Database\BaseConnection->query('select * from a...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(46): App\Models\SalidaModel->getArea('')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->saveUpdateArea()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-01 09:46:01 --> Undefined property: App\Controllers\Salida::$modeloEntrada
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->saveUpdateArea()
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-01 09:46:38 --> Undefined variable: cat
+#0 C:\xampp\htdocs\almexterno\app\Views\salidas\areas.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\almexterno\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('salidas/areas', Array, true)
+#4 C:\xampp\htdocs\almexterno\app\Views\template\layout.php(14): view('salidas/areas')
+#5 C:\xampp\htdocs\almexterno\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('template/layout', Array, true)
+#8 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(34): view('template/layout', Array)
+#9 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->areas()
+#10 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#11 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-12-01 09:56:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'updare area set area='Unidad De Seguros',nombres='Alexx',apellidos='Roalcabaa...' at line 1
+CRITICAL - 2021-12-01 09:56:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'updare area set area='Unidad De Seguros',nombres='Alexx',apellidos='Roalcabaa...' at line 1
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('updare area set...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('updare area set...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('updare area set...')
+#3 C:\xampp\htdocs\almexterno\app\Models\SalidaModel.php(32): CodeIgniter\Database\BaseConnection->query('updare area set...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(48): App\Models\SalidaModel->updateArea('Unidad De Segur...', 'Alexx', 'Roalcabaa', '85236963', '2')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->saveUpdateArea()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-01 11:16:00 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\almexterno\system\Model.php(587): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\almexterno\system\Model.php(783): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(42): CodeIgniter\Model->__call('getSalidas', Array)
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->listSalidasDT()
+#4 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-12-01 11:16:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'inner join area ar on s.idarea=ar.idarea
+        from salida s 
+        whe...' at line 3
+CRITICAL - 2021-12-01 11:16:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'inner join area ar on s.idarea=ar.idarea
+        from salida s 
+        whe...' at line 3
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select s.idsali...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select s.idsali...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select s.idsali...')
+#3 C:\xampp\htdocs\almexterno\app\Models\SalidaModel.php(83): CodeIgniter\Database\BaseConnection->query('select s.idsali...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(42): App\Models\SalidaModel->getSalidas('')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->listSalidasDT()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-01 11:54:42 --> Undefined variable: idarea
+#0 C:\xampp\htdocs\almexterno\app\Views\salidas\nuevo.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\almexterno\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('salidas/nuevo', Array, true)
+#4 C:\xampp\htdocs\almexterno\app\Views\template\layout.php(14): view('salidas/nuevo')
+#5 C:\xampp\htdocs\almexterno\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\almexterno\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\almexterno\system\Common.php(1250): CodeIgniter\View\View->render('template/layout', Array, true)
+#8 C:\xampp\htdocs\almexterno\app\Controllers\Salida.php(37): view('template/layout', Array)
+#9 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Salida->nuevaSalida()
+#10 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Salida))
+#11 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#13 {main}

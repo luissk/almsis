@@ -1,0 +1,178 @@
+CRITICAL - 2022-10-17 09:48:02 --> syntax error, unexpected '.'
+#0 C:\xampp\htdocs\almexterno\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\almexterno\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(905): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(429): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-17 10:28:42 --> Undefined variable: idusuario
+#0 C:\xampp\htdocs\almexterno\app\Models\RequerimientoModel.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\almexterno\app\Controllers\Requerimiento.php(252): App\Models\RequerimientoModel->cambiarEstado('4', '2', '1')
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->cambiarEstado()
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#4 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-10-17 10:40:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fechaprocesado= 
+        where idreq=4' at line 1
+CRITICAL - 2022-10-17 10:40:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fechaprocesado= 
+        where idreq=4' at line 1
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('update requerim...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('update requerim...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('update requerim...')
+#3 C:\xampp\htdocs\almexterno\app\Models\RequerimientoModel.php(103): CodeIgniter\Database\BaseConnection->query('update requerim...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Requerimiento.php(252): App\Models\RequerimientoModel->cambiarEstado('4', '3', '1')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->cambiarEstado()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-17 11:13:19 --> Undefined variable: fechadespacho
+#0 C:\xampp\htdocs\almexterno\app\Models\RequerimientoModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 94, Array)
+#1 C:\xampp\htdocs\almexterno\app\Controllers\Requerimiento.php(252): App\Models\RequerimientoModel->cambiarEstado('4', '2', '1')
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->cambiarEstado()
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#4 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-17 13:08:04 --> Function name must be a string
+#0 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->buscarReqSalida()
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 13:08:17 --> Function name must be a string
+#0 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->buscarReqSalida()
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 13:10:03 --> Function name must be a string
+#0 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->buscarReqSalida()
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-10-17 13:33:50 --> Unknown column 'req.codigoreq' in 'field list'
+CRITICAL - 2022-10-17 13:33:50 --> Unknown column 'req.codigoreq' in 'field list'
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select rd.idreq...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select rd.idreq...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select rd.idreq...')
+#3 C:\xampp\htdocs\almexterno\app\Models\RequerimientoModel.php(133): CodeIgniter\Database\BaseConnection->query('select rd.idreq...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Requerimiento.php(282): App\Models\RequerimientoModel->listarDetalleReqPorCodigo('NTV4MK')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->buscarReqSalida()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-17 13:34:39 --> Unknown column 'req.codigoreq' in 'field list'
+CRITICAL - 2022-10-17 13:34:39 --> Unknown column 'req.codigoreq' in 'field list'
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select rd.idreq...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select rd.idreq...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select rd.idreq...')
+#3 C:\xampp\htdocs\almexterno\app\Models\RequerimientoModel.php(133): CodeIgniter\Database\BaseConnection->query('select rd.idreq...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Requerimiento.php(282): App\Models\RequerimientoModel->listarDetalleReqPorCodigo('NTV4MK')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->buscarReqSalida()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-17 13:34:41 --> Unknown column 'req.codigoreq' in 'field list'
+CRITICAL - 2022-10-17 13:34:41 --> Unknown column 'req.codigoreq' in 'field list'
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select rd.idreq...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select rd.idreq...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select rd.idreq...')
+#3 C:\xampp\htdocs\almexterno\app\Models\RequerimientoModel.php(133): CodeIgniter\Database\BaseConnection->query('select rd.idreq...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Requerimiento.php(282): App\Models\RequerimientoModel->listarDetalleReqPorCodigo('NTV4MK')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->buscarReqSalida()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-17 13:34:47 --> Unknown column 'req.codigoreq' in 'field list'
+CRITICAL - 2022-10-17 13:34:47 --> Unknown column 'req.codigoreq' in 'field list'
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select rd.idreq...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select rd.idreq...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select rd.idreq...')
+#3 C:\xampp\htdocs\almexterno\app\Models\RequerimientoModel.php(133): CodeIgniter\Database\BaseConnection->query('select rd.idreq...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Requerimiento.php(282): App\Models\RequerimientoModel->listarDetalleReqPorCodigo('NTV4MK')
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->buscarReqSalida()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-17 14:28:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5
+CRITICAL - 2022-10-17 14:28:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select usu.idus...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select usu.idus...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select usu.idus...')
+#3 C:\xampp\htdocs\almexterno\app\Models\UsuarioModel.php(46): CodeIgniter\Database\BaseConnection->query('select usu.idus...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Requerimiento.php(38): App\Models\UsuarioModel->getUsuario(NULL)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->requerimiento()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-17 14:28:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5
+CRITICAL - 2022-10-17 14:28:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select usu.idus...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select usu.idus...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select usu.idus...')
+#3 C:\xampp\htdocs\almexterno\app\Models\UsuarioModel.php(46): CodeIgniter\Database\BaseConnection->query('select usu.idus...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Requerimiento.php(38): App\Models\UsuarioModel->getUsuario(NULL)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->requerimiento()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-17 14:28:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5
+CRITICAL - 2022-10-17 14:28:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select usu.idus...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select usu.idus...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select usu.idus...')
+#3 C:\xampp\htdocs\almexterno\app\Models\UsuarioModel.php(46): CodeIgniter\Database\BaseConnection->query('select usu.idus...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Requerimiento.php(38): App\Models\UsuarioModel->getUsuario(NULL)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->requerimiento()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-17 14:28:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5
+CRITICAL - 2022-10-17 14:28:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select usu.idus...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select usu.idus...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select usu.idus...')
+#3 C:\xampp\htdocs\almexterno\app\Models\UsuarioModel.php(46): CodeIgniter\Database\BaseConnection->query('select usu.idus...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Requerimiento.php(38): App\Models\UsuarioModel->getUsuario(NULL)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->requerimiento()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-17 14:29:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5
+CRITICAL - 2022-10-17 14:29:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select usu.idus...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select usu.idus...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select usu.idus...')
+#3 C:\xampp\htdocs\almexterno\app\Models\UsuarioModel.php(46): CodeIgniter\Database\BaseConnection->query('select usu.idus...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Requerimiento.php(38): App\Models\UsuarioModel->getUsuario(NULL)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->requerimiento()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-17 14:30:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5
+CRITICAL - 2022-10-17 14:30:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5
+#0 C:\xampp\htdocs\almexterno\system\Database\MySQLi\Connection.php(329): mysqli->query('select usu.idus...')
+#1 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('select usu.idus...')
+#2 C:\xampp\htdocs\almexterno\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select usu.idus...')
+#3 C:\xampp\htdocs\almexterno\app\Models\UsuarioModel.php(46): CodeIgniter\Database\BaseConnection->query('select usu.idus...')
+#4 C:\xampp\htdocs\almexterno\app\Controllers\Requerimiento.php(38): App\Models\UsuarioModel->getUsuario(NULL)
+#5 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Requerimiento->requerimiento()
+#6 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Requerimiento))
+#7 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

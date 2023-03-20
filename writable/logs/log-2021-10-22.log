@@ -1,0 +1,62 @@
+CRITICAL - 2021-10-22 20:53:33 --> Call to a member function saveCategoria() on null
+#0 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->saveUpdateCategoria()
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-22 20:55:54 --> Call to a member function insertID() on bool
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(28): App\Models\ProductoModel->saveCategoria('General')
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->saveUpdateCategoria()
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-22 20:56:39 --> Call to a member function insertID() on bool
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(28): App\Models\ProductoModel->saveCategoria('General')
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->saveUpdateCategoria()
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-22 20:56:42 --> Call to a member function insertID() on bool
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(28): App\Models\ProductoModel->saveCategoria('General')
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->saveUpdateCategoria()
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-22 20:56:55 --> Call to a member function insertID() on bool
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(28): App\Models\ProductoModel->saveCategoria('General')
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->saveUpdateCategoria()
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-22 20:57:07 --> Call to a member function insertID() on bool
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(28): App\Models\ProductoModel->saveCategoria('General')
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->saveUpdateCategoria()
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-22 21:00:52 --> Call to a member function insertID() on bool
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(28): App\Models\ProductoModel->saveCategoria('x')
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->saveUpdateCategoria()
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-22 21:01:41 --> Call to a member function insertID() on bool
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(28): App\Models\ProductoModel->saveCategoria('x')
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->saveUpdateCategoria()
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-22 21:02:01 --> Call to a member function insertID() on bool
+#0 C:\xampp\htdocs\almexterno\app\Controllers\Producto.php(28): App\Models\ProductoModel->saveCategoria('General')
+#1 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(948): App\Controllers\Producto->saveUpdateCategoria()
+#2 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#3 C:\xampp\htdocs\almexterno\system\CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\almexterno\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
